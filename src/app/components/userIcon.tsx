@@ -17,7 +17,7 @@ const UserIcon = ({ icon: Icon, selected, id, setSelected }: UserIconProps) => {
 
     return (
         <div className="" onMouseEnter={handleHover}>
-            <Icon className={`${selected ? "text-cyan-400" : "text-gray-400"}`} />
+            <Icon className={`text-2xl ${selected ? "text-rose-400" : "text-gray-400"}`} />
         </div>
     )
 }

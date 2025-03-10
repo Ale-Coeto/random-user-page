@@ -7,7 +7,7 @@ import UserCard from "./userCard";
 import UserHistory from "./userHistory";
 
 const RandomUserContent = () => {
-    const { currentUser, users, loading, error, fetchUser } = useUserAPI();
+    const { currentUser, users, loading, fetchUser } = useUserAPI();
 
     return (
         <>

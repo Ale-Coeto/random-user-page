@@ -1,4 +1,4 @@
-import { User, UserResult } from "../types/userResult";
+import { User } from "../types/userResult";
 import Image from 'next/image';
 
 const UserLine = ({ user }: { user: User }) => {
